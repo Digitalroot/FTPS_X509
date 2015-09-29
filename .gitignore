@@ -1,8 +1,23 @@
-.gradle
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.metadata
 build/
+.gradle/
+.gradle
+.idea/
+.classpath
+.project
+.settings/
+gradle/
+*.irl
+*.iml
+*.ipr
+*.iws
 
 # Ignore Gradle GUI config
 gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
